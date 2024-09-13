@@ -1,0 +1,12 @@
+instructions:
+  - type: general
+    content: |
+      Respond to user's question.
+
+rails:
+  input:
+    flows:
+      - self check input
+  output:
+    flows:
+      - self check output
